@@ -492,9 +492,14 @@ cd ChronoGeometric_Framework
 # Build (downloads Mathlib on first run)
 lake build
 
-# Expected output:
+# Verify (build + anti‑circularity check)
+make verify
+
+# Expected output (build part):
 #   Built ChronoGeometric_Framework (all 6 targets)
 #   0 errors, 0 warnings (except upstream Mathlib warnings)
+# Expected output (verify part):
+#   ANTI-CIRCULARITY GATE PASS
 ```
 
 ### 8.3 Verification Checklist for Reviewers
