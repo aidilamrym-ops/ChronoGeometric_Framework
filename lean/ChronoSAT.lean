@@ -72,7 +72,7 @@ theorem sat_instant_reduction (f : Formula) :
   simp [simulate_sat, h, collapse_to_harmony]
 
 -- ============================================================================
--- ENCODING CORRECTNESS (the real work -- currently SORRY)
+-- ENCODING CORRECTNESS (the real work – implemented)
 -- ============================================================================
 
 /-- Boolean assignment: maps variable index to truth value. -/
