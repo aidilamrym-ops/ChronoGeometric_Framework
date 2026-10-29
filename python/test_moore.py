@@ -70,3 +70,4 @@ def test_reject_float_degree():
 
     with pytest.raises(TypeError, match="degree"):
         moore_premises.second_derivative_over_ball(acb("0.5", "0"), degree=16.0)
+
